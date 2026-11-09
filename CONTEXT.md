@@ -34,3 +34,15 @@ _Evitar_: Gênero comprovado, gênero definitivamente válido.
 **Quarentena**: Conjunto de registros retidos para resolver inconsistências ou falta de associação segura antes de sua inclusão no catálogo consultável.
 
 **Snapshot do catálogo**: Retrato datado do catálogo com procedência suficiente para reconstruir e explicar seu conteúdo.
+
+**Intervalo de estimativa**: Limites associados à incerteza de uma estimativa, segundo um método e uma fonte. Não equivale necessariamente à variação entre animais.
+
+**Variação entre táxons ou espécimes**: Diferença de medidas entre espécies ou indivíduos distintos, separada da incerteza de cada estimativa.
+
+**Envelope de medidas do gênero**: Resumo dos extremos das observações elegíveis de um gênero, com cobertura conhecida. Não representa automaticamente os limites de todos os indivíduos que já existiram.
+
+**Envelope temporal de ocorrências**: Faixa que contém os limites de datação das ocorrências consideradas. Não determina, por si só, o surgimento e a extinção exatos do gênero.
+
+**País de achado**: País ou território moderno associado a uma ocorrência fóssil. É diferente da extensão geográfica histórica da linhagem.
+
+**Cobertura do resumo**: Conjunto de espécies, espécimes e observações que sustentam um resumo, em relação ao universo do catálogo.

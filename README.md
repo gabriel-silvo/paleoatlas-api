@@ -76,6 +76,10 @@ O repositório é público e a API foi desenhada para leitura pública sem chave
 
 ## Documentação do projeto
 
+- [Retomar o trabalho em outra conversa](docs/HANDOFF.md)
+- [Plano de carga de medidas, países e idade](docs/ENRICHMENT_PLAN.md)
+- [Auditoria do catálogo legado](docs/research/legacy-catalog-audit.md)
+
 - [Escopo e critérios de aceite](docs/SCOPE.md)
 - [Glossário do domínio](CONTEXT.md)
 - [Instruções para agentes](AGENTS.md)

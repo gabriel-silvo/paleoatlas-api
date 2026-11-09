@@ -4,6 +4,9 @@ This repository contains the dinosaur catalog API only. Keep RPG rules, player s
 
 ## Before changing the domain
 
+- When resuming after a conversation or workspace change, read [docs/HANDOFF.md](docs/HANDOFF.md) and confirm the intended checkout before editing.
+- When planning or implementing measurements, occurrence countries or temporal summaries, read [docs/ENRICHMENT_PLAN.md](docs/ENRICHMENT_PLAN.md). Images are deferred by the owner.
+
 - Read [CONTEXT.md](CONTEXT.md) for canonical terms and [docs/SCOPE.md](docs/SCOPE.md) for eligibility rules.
 - When changing source queries, normalization, taxonomic boundaries or aliases, read [docs/DATA_POLICY.md](docs/DATA_POLICY.md) and [docs/research/pbdb-count-and-pokeapi.md](docs/research/pbdb-count-and-pokeapi.md).
 - When changing storage or runtime lifecycle, read [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).

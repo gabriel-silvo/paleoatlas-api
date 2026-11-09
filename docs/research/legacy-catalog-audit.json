@@ -1,0 +1,2599 @@
+{
+  "published_to_api": false,
+  "summaries": [
+    {
+      "dataset": "dinodex-public",
+      "source": "https://github.com/majordino-s-dinodex/dinodex/blob/a1d3a9afddfb2a8f84d4fbb2968ff0d520231e46/dinosaurs.json",
+      "last_file_commit_at": "2024-11-01T02:36:36Z",
+      "audit_at": "2026-11-09T23:45:59.855Z",
+      "sha256": "f51b6a09cb0cd402e6efbe9482c83e5714ee80a0f03f43d522797f769763bff4",
+      "records": 94,
+      "distinct_genus_labels": 94,
+      "matching": {
+        "canonical": 89,
+        "historical_alias": 1,
+        "ambiguous": 0,
+        "unmatched": 4
+      },
+      "rows_with_reference_fields": 0,
+      "duplicate_genus_labels": [],
+      "unresolved": [
+        {
+          "index": 47,
+          "genus_name": "Lexovisaurus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 59,
+          "genus_name": "Mosasaurus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 70,
+          "genus_name": "Quetzalcoatlus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: missing or nonnumeric bounds"
+          ]
+        },
+        {
+          "index": 90,
+          "genus_name": "Ubirajara",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        }
+      ],
+      "review_queue": [
+        {
+          "index": 0,
+          "genus_name": "Achillobator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-68417"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 1,
+          "genus_name": "Acrocanthosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38597"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 2,
+          "genus_name": "Albertosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38607"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 3,
+          "genus_name": "Alectrosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38610"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 4,
+          "genus_name": "Allosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38590"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 5,
+          "genus_name": "Amargasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53960"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 6,
+          "genus_name": "Ankylosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38837"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 7,
+          "genus_name": "Apatosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38665"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 8,
+          "genus_name": "Appalachiosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-65079"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 9,
+          "genus_name": "Argentinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-66645"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 10,
+          "genus_name": "Australovenator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-148972"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 11,
+          "genus_name": "Austroposeidon",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-346948"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 12,
+          "genus_name": "Austroraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-138547"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 13,
+          "genus_name": "Bajadasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-381349"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown",
+            "tempo: invalid bounds"
+          ]
+        },
+        {
+          "index": 14,
+          "genus_name": "Baryonyx",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-58891"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 15,
+          "genus_name": "Barsboldia",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38771"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 16,
+          "genus_name": "Borealopelta",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-371999"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 17,
+          "genus_name": "Brachiosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38677"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 18,
+          "genus_name": "Carcharodontosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38576"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 19,
+          "genus_name": "Carnotaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-54533"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 20,
+          "genus_name": "Ceratosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38600"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 21,
+          "genus_name": "Concavenator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-170753"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 22,
+          "genus_name": "Coronosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-249800"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 23,
+          "genus_name": "Cryolophosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-64371"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 24,
+          "genus_name": "Dakotaraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-331109"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 25,
+          "genus_name": "Daspletosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38608"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 26,
+          "genus_name": "Deinonychus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38562"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 27,
+          "genus_name": "Deinocheirus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38551"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 28,
+          "genus_name": "Dilophosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38522"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 29,
+          "genus_name": "Diplodocus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38669"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 30,
+          "genus_name": "Dreadnoughtus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-304823"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 31,
+          "genus_name": "Dromaeosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38566"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 32,
+          "genus_name": "Edmontonia",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-63919"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 33,
+          "genus_name": "Edmontosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38761"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 34,
+          "genus_name": "Einiosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53952"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 35,
+          "genus_name": "Spinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38598"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 36,
+          "genus_name": "Stegosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38814"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 37,
+          "genus_name": "Styracosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38860"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown",
+            "tempo: invalid bounds"
+          ]
+        },
+        {
+          "index": 38,
+          "genus_name": "Gallimimus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38547"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 39,
+          "genus_name": "Giganotosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-54540"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 40,
+          "genus_name": "Gigantoraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-103707"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 41,
+          "genus_name": "Gigantspinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-89460"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 42,
+          "genus_name": "Gorgosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53193"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 43,
+          "genus_name": "Herrerasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38511"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 44,
+          "genus_name": "Iguanodon",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38749"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 45,
+          "genus_name": "Irritator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-64272"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 46,
+          "genus_name": "Kentrosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38811"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 47,
+          "genus_name": "Lexovisaurus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 48,
+          "genus_name": "Lokiceratops",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-492822"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "tempo: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 49,
+          "genus_name": "Lurdusaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-64410"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 50,
+          "genus_name": "Maiasaura",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38765"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 51,
+          "genus_name": "Majungasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38582"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 52,
+          "genus_name": "Mapusaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-77205"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 53,
+          "genus_name": "Megalosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38583"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 54,
+          "genus_name": "Megaraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-65424"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 55,
+          "genus_name": "Metriacanthosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38584"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 56,
+          "genus_name": "Microraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-68238"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 57,
+          "genus_name": "Miragaia",
+          "match": "historical_alias",
+          "candidate_genus_ids": [
+            "pbdb-38808"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 58,
+          "genus_name": "Mnyamawamtuka",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-381533"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 59,
+          "genus_name": "Mosasaurus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 60,
+          "genus_name": "Muttaburrasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38750"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 61,
+          "genus_name": "Neovenator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-64119"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 62,
+          "genus_name": "Ornithomimus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38544"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 63,
+          "genus_name": "Ouranosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38751"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 64,
+          "genus_name": "Pachycephalosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38786"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 65,
+          "genus_name": "Pachyrhinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38858"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 66,
+          "genus_name": "Parasaurolophus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38766"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 67,
+          "genus_name": "Pycnonemosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53941"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 68,
+          "genus_name": "Plateosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38644"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 69,
+          "genus_name": "Pyroraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-65133"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 70,
+          "genus_name": "Quetzalcoatlus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: missing or nonnumeric bounds"
+          ]
+        },
+        {
+          "index": 71,
+          "genus_name": "Regaliceratops",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-365325"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 72,
+          "genus_name": "Saichania",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38834"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 73,
+          "genus_name": "Saltasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38693"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 74,
+          "genus_name": "Saurophaganax",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-65370"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 75,
+          "genus_name": "Shantungosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38776"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 76,
+          "genus_name": "Shunosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38660"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 77,
+          "genus_name": "Sinoceratops",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-168664"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 78,
+          "genus_name": "Suchomimus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53367"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 79,
+          "genus_name": "Suskityrannus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-395956"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 80,
+          "genus_name": "Tarbosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53224"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 81,
+          "genus_name": "Tarchia",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38836"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 82,
+          "genus_name": "Tenontosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38741"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 83,
+          "genus_name": "Thanos",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-379317"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 84,
+          "genus_name": "Therizinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38553"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 85,
+          "genus_name": "Tyrannosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38613"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 86,
+          "genus_name": "Torosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38861"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 87,
+          "genus_name": "Torvosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38587"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 88,
+          "genus_name": "Triceratops",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38862"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 89,
+          "genus_name": "Tuojiangosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38806"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 90,
+          "genus_name": "Ubirajara",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 91,
+          "genus_name": "Utahraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-54557"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 92,
+          "genus_name": "Velociraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38564"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 93,
+          "genus_name": "Yutyrannus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-230946"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "sr-raptor-postgresql",
+      "source": "https://github.com/gabriel-silvo/Sr_Raptor-2.0/blob/c3c833959ebb267818bacf1f7c24631c0534d4b4/Database/dinosaurs.json",
+      "last_file_commit_at": "2024-03-05T21:02:51Z",
+      "audit_at": "2026-11-09T23:45:59.860Z",
+      "sha256": "68723c6e9c2910a2b311496a6edaf1ec9cf5643136687d7bbc26a4b005e3eb05",
+      "records": 93,
+      "distinct_genus_labels": 93,
+      "matching": {
+        "canonical": 88,
+        "historical_alias": 1,
+        "ambiguous": 0,
+        "unmatched": 4
+      },
+      "rows_with_reference_fields": 0,
+      "duplicate_genus_labels": [],
+      "unresolved": [
+        {
+          "index": 47,
+          "genus_name": "Lexovisaurus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 58,
+          "genus_name": "Mosasaurus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 69,
+          "genus_name": "Quetzalcoatlus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: missing or nonnumeric bounds"
+          ]
+        },
+        {
+          "index": 89,
+          "genus_name": "Ubirajara",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        }
+      ],
+      "review_queue": [
+        {
+          "index": 0,
+          "genus_name": "Achillobator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-68417"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 1,
+          "genus_name": "Acrocanthosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38597"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 2,
+          "genus_name": "Albertosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38607"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 3,
+          "genus_name": "Alectrosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38610"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 4,
+          "genus_name": "Allosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38590"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 5,
+          "genus_name": "Amargasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53960"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 6,
+          "genus_name": "Ankylosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38837"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 7,
+          "genus_name": "Apatosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38665"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 8,
+          "genus_name": "Appalachiosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-65079"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 9,
+          "genus_name": "Argentinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-66645"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 10,
+          "genus_name": "Australovenator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-148972"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 11,
+          "genus_name": "Austroposeidon",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-346948"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 12,
+          "genus_name": "Austroraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-138547"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 13,
+          "genus_name": "Bajadasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-381349"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown",
+            "tempo: invalid bounds"
+          ]
+        },
+        {
+          "index": 14,
+          "genus_name": "Baryonyx",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-58891"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 15,
+          "genus_name": "Barsboldia",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38771"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 16,
+          "genus_name": "Borealopelta",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-371999"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 17,
+          "genus_name": "Brachiosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38677"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 18,
+          "genus_name": "Carcharodontosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38576"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 19,
+          "genus_name": "Carnotaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-54533"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 20,
+          "genus_name": "Ceratosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38600"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 21,
+          "genus_name": "Concavenator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-170753"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 22,
+          "genus_name": "Coronosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-249800"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 23,
+          "genus_name": "Cryolophosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-64371"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 24,
+          "genus_name": "Dakotaraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-331109"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 25,
+          "genus_name": "Daspletosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38608"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 26,
+          "genus_name": "Deinonychus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38562"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 27,
+          "genus_name": "Deinocheirus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38551"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 28,
+          "genus_name": "Dilophosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38522"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 29,
+          "genus_name": "Diplodocus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38669"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 30,
+          "genus_name": "Dreadnoughtus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-304823"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 31,
+          "genus_name": "Dromaeosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38566"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 32,
+          "genus_name": "Edmontonia",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-63919"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 33,
+          "genus_name": "Edmontosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38761"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 34,
+          "genus_name": "Einiosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53952"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 35,
+          "genus_name": "Spinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38598"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 36,
+          "genus_name": "Stegosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38814"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 37,
+          "genus_name": "Styracosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38860"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown",
+            "tempo: invalid bounds"
+          ]
+        },
+        {
+          "index": 38,
+          "genus_name": "Gallimimus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38547"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 39,
+          "genus_name": "Giganotosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-54540"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 40,
+          "genus_name": "Gigantoraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-103707"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 41,
+          "genus_name": "Gigantspinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-89460"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 42,
+          "genus_name": "Gorgosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53193"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 43,
+          "genus_name": "Herrerasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38511"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 44,
+          "genus_name": "Iguanodon",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38749"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 45,
+          "genus_name": "Irritator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-64272"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 46,
+          "genus_name": "Kentrosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38811"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 47,
+          "genus_name": "Lexovisaurus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 48,
+          "genus_name": "Lurdusaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-64410"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 49,
+          "genus_name": "Maiasaura",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38765"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 50,
+          "genus_name": "Majungasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38582"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 51,
+          "genus_name": "Mapusaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-77205"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 52,
+          "genus_name": "Megalosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38583"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 53,
+          "genus_name": "Megaraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-65424"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 54,
+          "genus_name": "Metriacanthosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38584"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 55,
+          "genus_name": "Microraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-68238"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 56,
+          "genus_name": "Miragaia",
+          "match": "historical_alias",
+          "candidate_genus_ids": [
+            "pbdb-38808"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 57,
+          "genus_name": "Mnyamawamtuka",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-381533"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 58,
+          "genus_name": "Mosasaurus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 59,
+          "genus_name": "Muttaburrasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38750"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 60,
+          "genus_name": "Neovenator",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-64119"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 61,
+          "genus_name": "Ornithomimus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38544"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 62,
+          "genus_name": "Ouranosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38751"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 63,
+          "genus_name": "Pachycephalosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38786"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 64,
+          "genus_name": "Pachyrhinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38858"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 65,
+          "genus_name": "Parasaurolophus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38766"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 66,
+          "genus_name": "Pycnonemosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53941"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 67,
+          "genus_name": "Plateosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38644"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 68,
+          "genus_name": "Pyroraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-65133"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 69,
+          "genus_name": "Quetzalcoatlus",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: missing or nonnumeric bounds"
+          ]
+        },
+        {
+          "index": 70,
+          "genus_name": "Regaliceratops",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-365325"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 71,
+          "genus_name": "Saichania",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38834"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 72,
+          "genus_name": "Saltasaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38693"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 73,
+          "genus_name": "Saurophaganax",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-65370"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 74,
+          "genus_name": "Shantungosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38776"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 75,
+          "genus_name": "Shunosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38660"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 76,
+          "genus_name": "Sinoceratops",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-168664"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 77,
+          "genus_name": "Suchomimus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53367"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 78,
+          "genus_name": "Suskityrannus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-395956"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 79,
+          "genus_name": "Tarbosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-53224"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 80,
+          "genus_name": "Tarchia",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38836"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 81,
+          "genus_name": "Tenontosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38741"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 82,
+          "genus_name": "Thanos",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-379317"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 83,
+          "genus_name": "Therizinosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38553"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 84,
+          "genus_name": "Tyrannosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38613"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 85,
+          "genus_name": "Torosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38861"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 86,
+          "genus_name": "Torvosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38587"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 87,
+          "genus_name": "Triceratops",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38862"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 88,
+          "genus_name": "Tuojiangosaurus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38806"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 89,
+          "genus_name": "Ubirajara",
+          "match": "unmatched",
+          "candidate_genus_ids": [],
+          "issues": [
+            "unmatched: taxonomy, spelling or scope needs review",
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "altura: equal bounds; range semantics unknown",
+            "comprimento: equal bounds; range semantics unknown",
+            "peso: equal bounds; range semantics unknown"
+          ]
+        },
+        {
+          "index": 90,
+          "genus_name": "Utahraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-54557"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 91,
+          "genus_name": "Velociraptor",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-38564"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record"
+          ]
+        },
+        {
+          "index": 92,
+          "genus_name": "Yutyrannus",
+          "match": "canonical",
+          "candidate_genus_ids": [
+            "pbdb-230946"
+          ],
+          "issues": [
+            "no scientific references field",
+            "measurement units and height definition not declared in record",
+            "comprimento: equal bounds; range semantics unknown"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -37,3 +37,7 @@ Os registros consultáveis são marcados `source_status=accepted` e `curation_st
 ## Fora da versão inicial
 
 Cadastro de jogadores, cartas, atributos de combate, pagamento, painel de edição, escrita HTTP, imagens, medidas preenchidas, geografia, traduções e autenticação de consumidores. A API de consulta não oferece acesso administrativo. Hospedagem pública do processo HTTP é uma etapa operacional separada da publicação do repositório.
+
+## Direção do próximo enriquecimento
+
+Por instrução do proprietário em 2026-11-09, imagens ficam fora da próxima carga. O plano propõe medidas mínimas/máximas por gênero, países de achados e envelope temporal, preservando afirmações por espécie/espécime e sua incerteza. Esses recursos ainda não foram implementados; consultar [ENRICHMENT_PLAN.md](ENRICHMENT_PLAN.md).

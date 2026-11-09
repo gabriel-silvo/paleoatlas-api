@@ -16,7 +16,9 @@
 4. Importar ocorrências e referências em lotes; derivar localidades e intervalos com semântica documentada.
 5. Criar afirmações científicas com fonte por campo e armazenamento de decisões curatoriais.
 6. Selecionar conjuntos científicos de medidas, preservando métodos, espécimes e intervalos; começar por um grupo pequeno revisado.
-7. Adicionar imagens licenciadas, créditos e descrições em português com revisão.
+7. Produzir descrições em português com revisão e referências. Imagens foram adiadas pelo proprietário e ficam fora da próxima carga.
+
+O desenho da carga por lotes e dos resumos por gênero está em [ENRICHMENT_PLAN.md](ENRICHMENT_PLAN.md). A fonte legada localizada contém 94 registros na variante pública e 93 na variante antiga; sua auditoria não publicou medidas na API.
 
 ## Operação
 
