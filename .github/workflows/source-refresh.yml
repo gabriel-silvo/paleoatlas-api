@@ -1,0 +1,30 @@
+name: PBDB draft refresh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: pbdb-refresh
+  cancel-in-progress: false
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run data:sync
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pbdb-review-draft
+          path: |
+            data/staging/
+            data/raw/
+          retention-days: 30

@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-11-09T23:02:26.606Z",
+  "evidence": [
+    {
+      "resource": "genera",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?base_name=Dinosauria%5EAves%5EAvialae&rank=genus&taxon_status=accepted&pres=regular&published=yes&limit=all&show=attr%2Cclass%2Cref%2Ccrmod",
+      "retrieved_at": "2026-11-09T23:02:28.695Z",
+      "sha256": "26040aea99ef96eb470ae89088446e8149b2f95ba99003dbd9e459625fcf2692",
+      "record_count": 1323
+    },
+    {
+      "resource": "species",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?base_name=Dinosauria%5EAves%5EAvialae&rank=species&taxon_status=accepted&pres=regular&published=yes&limit=all&show=attr%2Cclass%2Cref%2Ccrmod",
+      "retrieved_at": "2026-11-09T23:02:29.372Z",
+      "sha256": "c8f9d1bb7bad02475c93fd5cd77c446611e3c2a55ed140435f8a01a8b9412528",
+      "record_count": 1466
+    },
+    {
+      "resource": "aliases",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?base_name=Dinosauria%5EAves%5EAvialae&rank=genus&taxon_status=all&pres=regular&published=yes&limit=all&show=attr%2Cclass%2Cref%2Ccrmod",
+      "retrieved_at": "2026-11-09T23:02:30.097Z",
+      "sha256": "e95e2d97e4e953e7f7728baa7c365fbb598a83dad04f73fba6fd7fc8dbf0d5f3",
+      "record_count": 1666
+    }
+  ]
+}

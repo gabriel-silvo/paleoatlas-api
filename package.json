@@ -1,0 +1,48 @@
+{
+  "name": "paleoatlas-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A source-backed API for non-avian dinosaur taxonomy.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch --import tsx src/server.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node --env-file-if-exists=.env dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "check": "npm run typecheck && npm test && npm run build",
+    "data:sync": "node --env-file-if-exists=.env --import tsx scripts/sync-pbdb.ts",
+    "db:migrate": "node --env-file-if-exists=.env --import tsx scripts/migrate.ts",
+    "db:load": "node --env-file-if-exists=.env --import tsx scripts/load-postgres.ts",
+    "data:publish": "node --import tsx scripts/publish-catalog.ts",
+    "data:archive": "node --import tsx scripts/archive-evidence.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.4.1",
+    "@fastify/helmet": "^13.2.0",
+    "@fastify/rate-limit": "^11.2.2",
+    "@fastify/swagger": "^9.9.3",
+    "@fastify/swagger-ui": "^6.1.3",
+    "fastify": "^5.12.8",
+    "pg": "^8.23.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-silvo/paleoatlas-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabriel-silvo/paleoatlas-api/issues"
+  },
+  "homepage": "https://github.com/gabriel-silvo/paleoatlas-api#readme"
+}

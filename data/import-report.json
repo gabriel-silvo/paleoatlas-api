@@ -1,0 +1,2017 @@
+{
+  "generated_at": "2026-11-09T23:02:26.606Z",
+  "counts": {
+    "raw_genera": 1323,
+    "raw_species": 1466,
+    "accepted_genera": 1323,
+    "distinct_genus_names": 1322,
+    "published_species": 1430,
+    "resolved_aliases": 150,
+    "quarantined_species": 36,
+    "unresolved_historical_names": 193
+  },
+  "ambiguous_genus_names": [
+    {
+      "name": "Saurornithoides",
+      "ids": [
+        "pbdb-69227",
+        "pbdb-38573"
+      ]
+    }
+  ],
+  "quarantine": [
+    {
+      "id": "txn:57406",
+      "name": "Gresslyosaurus plieningeri",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:57406",
+        "nam": "Gresslyosaurus plieningeri",
+        "rnk": "species",
+        "att": "(Huene 1905)",
+        "par": "txn:57404",
+        "gnl": "Gresslyosaurus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:16920",
+        "ref": "F. v. Huene. 1905. Trias-Dinosaurier Europas [European Triassic dinosaurs]. Zeitschrift der Deutschen Geologischen Gesellschaft 57:345-349",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 2,
+        "phl": "Chordata",
+        "cll": "Saurischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2004-05-13 11:23:47"
+      }
+    },
+    {
+      "id": "txn:57405",
+      "name": "Gresslyosaurus ingens",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:57405",
+        "nam": "Gresslyosaurus ingens",
+        "rnk": "species",
+        "att": "(Rütimeyer 1856)",
+        "par": "txn:57404",
+        "gnl": "Gresslyosaurus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:34081",
+        "ref": "L. Rütimeyer. 1856. [Fossile Reptilienknochen aus dem Keuper] [Fossil reptile bones from the Keuper]. Verhandlungen der Schweizerischen Naturforschenden Gesellschaft 41:62-64",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Saurischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2004-05-13 11:22:04"
+      }
+    },
+    {
+      "id": "txn:389229",
+      "name": "Morosaurus marchei",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:389229",
+        "nam": "Morosaurus marchei",
+        "rnk": "species",
+        "att": "Sauvage 1898",
+        "par": "txn:38697",
+        "gnl": "Camarasaurus",
+        "fml": "Camarasauridae",
+        "rid": "ref:63601",
+        "ref": "H.-E. Sauvage. 1898. Vertébrés Fossiles du Portugal. Contributions à l’Étude des Poissons et des Reptiles du Jurassique et du Crétacique [Fossil Vertebrates of Portugal. Contributions to the Study of the Fishes and Reptiles of the Jurassic and Cretaceous]",
+        "dmd": "2019-07-17 01:04:39",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Saurischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2019-07-16 13:14:29"
+      }
+    },
+    {
+      "id": "txn:64310",
+      "name": "Titanosaurus blanfordi",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:64310",
+        "nam": "Titanosaurus blanfordi",
+        "rnk": "species",
+        "att": "Lydekker 1879",
+        "par": "txn:38694",
+        "gnl": "Titanosaurus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:17139",
+        "ref": "R. Lydekker. 1879. Fossil Reptilia and Batrachia. Memoirs of the Geological Survey of India. Palaeontologia Indica, Series IV. Indian Pretertiary Vertebrata 1(3):1-36",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 2,
+        "phl": "Chordata",
+        "cll": "Saurischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2005-02-09 11:24:12"
+      }
+    },
+    {
+      "id": "txn:153878",
+      "name": "Brachiosaurus (Giraffatitan) brancai",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:153878",
+        "nam": "Brachiosaurus (Giraffatitan) brancai",
+        "rnk": "species",
+        "att": "(Janensch 1914)",
+        "par": "txn:67847",
+        "gnl": "Giraffatitan",
+        "fml": "Brachiosauridae",
+        "rid": "ref:36770",
+        "ref": "W. Janensch. 1914. Übersicht über die Wirbeltierfauna der Tendaguru-Schichten [Overview of the vertebrate fauna of the Tendaguru beds]. Archiv für Biontologie 3:81-110",
+        "dmd": "2025-06-26 18:01:18",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Saurischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2009-09-10 22:00:20"
+      }
+    },
+    {
+      "id": "txn:64330",
+      "name": "Iuticosaurus lydekkeri",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:64330",
+        "nam": "Iuticosaurus lydekkeri",
+        "rnk": "species",
+        "att": "(Huene 1929)",
+        "par": "txn:64328",
+        "gnl": "Iuticosaurus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:59060",
+        "ref": "F. v. Huene. 1929. Los sauriquios y ornitisquios del Cretáceo argentino. Anales del Museo de La Plata, serie 2 3:1-196",
+        "dmd": "2016-05-06 01:03:04",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Saurischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2005-02-09 12:55:05"
+      }
+    },
+    {
+      "id": "txn:65171",
+      "name": "Ornithoides oshiensis",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:65171",
+        "nam": "Ornithoides oshiensis",
+        "rnk": "species",
+        "att": "Osborn 1924",
+        "par": "txn:65170",
+        "gnl": "Ornithoides",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:13076",
+        "ref": "H. F. Osborn. 1924. The discovery of an unknown continent. Natural History 24(2):133-149",
+        "dmd": "2014-11-21 15:55:27",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2005-04-05 12:35:28"
+      }
+    },
+    {
+      "id": "txn:68030",
+      "name": "Fuscinapedis woodbinensis",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:68030",
+        "nam": "Fuscinapedis woodbinensis",
+        "rnk": "species",
+        "att": "Lee 1997",
+        "par": "txn:68029",
+        "gnl": "Fuscinapedis",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:7663",
+        "ref": "Y.-N Lee. 1997. Bird and dinosaur footprints in the Woodbine Formation (Cenomanian), Texas. Cretaceous Research 18:849-864",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2005-09-23 12:38:32"
+      }
+    },
+    {
+      "id": "txn:450387",
+      "name": "Subtiliolithus hyogoensis",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:450387",
+        "nam": "Subtiliolithus hyogoensis",
+        "rnk": "species",
+        "att": "Tanaka et al. 2020",
+        "par": "txn:86626",
+        "gnl": "Subtiliolithus",
+        "fml": "Laevisoolithidae",
+        "rid": "ref:79483",
+        "ref": "K. Tanaka, D. K. Zelenitsky, and F. Therrien, T. Ikeda, K. Kubota, H. Saegusa, T. Tanaka, K. Ikuno. 2020. Exceptionally small theropod eggs from the Lower Cretaceous Ohyamashimo Formation of Tamba, Hyogo Prefecture, Japan. Cretaceous Research 114:104519:1-14",
+        "dmd": "2022-02-05 01:05:27",
+        "ext": "0",
+        "noc": 2,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2022-02-04 08:54:37"
+      }
+    },
+    {
+      "id": "txn:58862",
+      "name": "Salfitichnus mentoor",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:58862",
+        "nam": "Salfitichnus mentoor",
+        "rnk": "species",
+        "att": "Alonso and Marquillas 1986",
+        "par": "txn:58861",
+        "gnl": "Salfitichnus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:6049",
+        "ref": "R. N. Alonso and R. A. Marquillas. 1986. Nueva localidad con huellas de dinosaurios y primer hallazgo de huellas de aves en la Formacion Yacoraite (Maastrichtiano) del norte Argentino [A new locality with dinosaur eggs and the first discovery of avian footprints in the Yacoraite Formation (Maastrichtian) of northern Argentina]. IV Congreso Argentino de Paleontologia y Biostratigrafia, Actas 2:33-41",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2004-10-05 14:56:07"
+      }
+    },
+    {
+      "id": "txn:133390",
+      "name": "Trisauropodiscus superavipes",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:133390",
+        "nam": "Trisauropodiscus superavipes",
+        "rnk": "species",
+        "att": "Ellenberger 1970",
+        "par": "txn:81122",
+        "gnl": "Trisauropodiscus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:28154",
+        "ref": "P. Ellenberger. 1970. Les niveaux paléontologiques de première apparition des mammifères primoridaux en Afrique du Sud et leur ichnologie.  Establissement de zones stratigraphiques detaillees dans le Stormberg du Lesotho (Afrique du Sud) (Trias Supérieur à Jurassique) [The paleontological levels of the first appearance of primordial mammals in southern Africa and their ichnology.  Establishment of detailed stratigraphic zones in the Stormberg of Lesotho (southern Africa) (Upper Triassic to Jurassic). In: S. H. Haughton (ed.), Second Symposium on Gondwana Stratigraphy and Paleontology, International Union of Geological Sciences.  Council for Scientific and Industrial Research, Pretoria",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2008-09-16 10:30:00"
+      }
+    },
+    {
+      "id": "txn:133421",
+      "name": "Neotripodiscus makoetlani",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:133421",
+        "nam": "Neotripodiscus makoetlani",
+        "rnk": "species",
+        "att": "Ellenberger 1970",
+        "par": "txn:133420",
+        "gnl": "Neotripodiscus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:28154",
+        "ref": "P. Ellenberger. 1970. Les niveaux paléontologiques de première apparition des mammifères primoridaux en Afrique du Sud et leur ichnologie.  Establissement de zones stratigraphiques detaillees dans le Stormberg du Lesotho (Afrique du Sud) (Trias Supérieur à Jurassique) [The paleontological levels of the first appearance of primordial mammals in southern Africa and their ichnology.  Establishment of detailed stratigraphic zones in the Stormberg of Lesotho (southern Africa) (Upper Triassic to Jurassic). In: S. H. Haughton (ed.), Second Symposium on Gondwana Stratigraphy and Paleontology, International Union of Geological Sciences.  Council for Scientific and Industrial Research, Pretoria",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2008-09-16 11:14:08"
+      }
+    },
+    {
+      "id": "txn:315049",
+      "name": "Ornithomimipus yuanmuensis",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:315049",
+        "nam": "Ornithomimipus yuanmuensis",
+        "rnk": "species",
+        "att": "Zhao 1986",
+        "par": "txn:63444",
+        "gnl": "Ornithomimipus",
+        "fml": "Ornithomimipodidae",
+        "rid": "ref:54361",
+        "ref": "X. Zhao. 1986. [Reptiles]. Ching-kuo Ti Pao o Hsi [The Cretaceous System of China. The Stratigraphy of China] 12:67-73",
+        "dmd": "2015-07-26 01:02:22",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2015-02-13 14:13:21"
+      }
+    },
+    {
+      "id": "txn:81011",
+      "name": "Saurexallopus zerbsti",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:81011",
+        "nam": "Saurexallopus zerbsti",
+        "rnk": "species",
+        "att": "Lockley et al. 2003",
+        "par": "txn:65843",
+        "gnl": "Saurexallopus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:17313",
+        "ref": "M. G. Lockley, G. Nadon, and P. J. Currie. 2003. A diverse dinosaur-bird footprint assemblage from the Lance Formation, Upper Cretaceous, eastern Wyoming; implications for ichnotaxonomy. Ichnos 11:229-249",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2006-05-15 12:30:25"
+      }
+    },
+    {
+      "id": "txn:84299",
+      "name": "Asiamericana asiatica",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:84299",
+        "nam": "Asiamericana asiatica",
+        "rnk": "species",
+        "att": "Nessov 1995",
+        "par": "txn:58873",
+        "gnl": "Richardoestesia",
+        "fml": "Dromaeosauridae",
+        "rid": "ref:16510",
+        "ref": "L. A. Nessov. 1995. Dinozavri severnoi Yevrazii: Novye dannye o sostave kompleksov, ekologii i paleobiogeografii [Dinosaurs of northern Eurasia: new data about assemblages, ecology, and paleobiogeography]. Institute for Scientific Research on the Earth's Crust, St. Petersburg State University, St. Petersburg",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2006-08-23 10:47:51"
+      }
+    },
+    {
+      "id": "txn:65369",
+      "name": "Poekilopleuron bucklandii",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:65369",
+        "nam": "Poekilopleuron bucklandii",
+        "rnk": "species",
+        "att": "(Eudes-Deslongchamps 1837)",
+        "par": "txn:38585",
+        "gnl": "Megalosaurus (Poekilopleuron)",
+        "fml": "Megalosauridae",
+        "rid": "ref:13170",
+        "ref": "J. A. Eudes-Deslongchamps. 1837. Mémoire sur le Poekilopleuron bucklandi, Grande Saurien Fossile, Intermédiare entre les Crocodiles et les Lézards, Découvert dans les Carrières de la Maladrerie, près Caen, au Mois de Juillet 1835 [Memoir on the Poekilopleuron bucklandi, a Great Fossil Saurian, Intermediate between Crocodiles and Lizards, Discovered in the Maladrerie Quarries, near Caen, in July 1835].",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2005-04-13 07:36:35"
+      }
+    },
+    {
+      "id": "txn:70436",
+      "name": "Poecilopleuron minor",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:70436",
+        "nam": "Poecilopleuron minor",
+        "rnk": "species",
+        "att": "Owen 1878",
+        "par": "txn:38585",
+        "gnl": "Megalosaurus (Poekilopleuron)",
+        "fml": "Megalosauridae",
+        "rid": "ref:9079",
+        "ref": "E. D. Cope. 1878. The affinities of the Dinosauria. American Naturalist 12(1):57-58",
+        "dmd": "2013-04-30 15:43:10",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2006-01-23 06:37:49"
+      }
+    },
+    {
+      "id": "txn:67936",
+      "name": "Rapator ornitholestoides",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:67936",
+        "nam": "Rapator ornitholestoides",
+        "rnk": "species",
+        "att": "Huene 1932",
+        "par": "txn:38631",
+        "gnl": "Rapator",
+        "fml": "Neovenatoridae",
+        "rid": "ref:29483",
+        "ref": "F. v. Huene. 1932. Die fossile Reptil-Ordnung Saurischia, ihre Entwicklung und Geschichte [The fossil reptile order Saurischia, their development and history]. Monographien zur Geologie und Palaeontologie, serie 1 4(1-2):1-361",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2005-09-21 15:19:22"
+      }
+    },
+    {
+      "id": "txn:80774",
+      "name": "Labrosaurus sulcatus",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:80774",
+        "nam": "Labrosaurus sulcatus",
+        "rnk": "species",
+        "att": "(Marsh 1896)",
+        "par": "txn:38590",
+        "gnl": "Allosaurus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:14074",
+        "ref": "O. C. Marsh. 1896. The dinosaurs of North America. United States Geological Survey, 16th Annual Report, 1894-95 55:133-244",
+        "dmd": "2021-04-21 10:29:01",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2006-05-01 14:39:35"
+      }
+    },
+    {
+      "id": "txn:54411",
+      "name": "Podokesaurus holyokensis",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:54411",
+        "nam": "Podokesaurus holyokensis",
+        "rnk": "species",
+        "att": "(Talbot 1911)",
+        "par": "txn:38520",
+        "gnl": "Coelophysis",
+        "fml": "Coelophysidae",
+        "rid": "ref:9194",
+        "ref": "M. Talbot. 1911. Podokesaurus holyokensis, a new dinosaur from the Triassic of the Connecticut Valley. American Journal of Science 31(186):469-479",
+        "dmd": "2017-08-02 16:21:59",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2003-09-16 15:05:42"
+      }
+    },
+    {
+      "id": "txn:332599",
+      "name": "Tachiraptor admirabilis",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:332599",
+        "nam": "Tachiraptor admirabilis",
+        "rnk": "species",
+        "att": "Langer et al. 2014",
+        "par": "txn:332598",
+        "gnl": "Tachiraptor",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:57144",
+        "ref": "M. C. Langer, A. D. Rincón, and J. Ramezani, A. Solórzano, O. W. M. Rauhut. 2014. New dinosaur (Theropoda, stem-Averostra) from the earliest Jurassic of the La Quinta Formation, Venezuelan Andes. Royal Society Open Science 1(2):1-15",
+        "dmd": "2022-04-08 11:22:37",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Reptilia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2015-11-28 10:16:57"
+      }
+    },
+    {
+      "id": "txn:64270",
+      "name": "Minmi paravertebrata",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:64270",
+        "nam": "Minmi paravertebrata",
+        "rnk": "species",
+        "att": "Molnar 1980",
+        "par": "txn:52879",
+        "gnl": "Minmi",
+        "fml": "Ankylosauridae",
+        "rid": "ref:17468",
+        "ref": "R. E. Molnar. 1980. An ankylosaur (Ornithischia, Reptilia) from the Lower Cretaceous of southern Queensland. Memoirs of the Queensland Museum 20(1):77-87",
+        "dmd": "2021-05-03 13:29:46",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2005-02-03 08:49:24"
+      }
+    },
+    {
+      "id": "txn:66026",
+      "name": "Palaeoscincus magoder",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:66026",
+        "nam": "Palaeoscincus magoder",
+        "rnk": "species",
+        "att": "Hennig 1914",
+        "par": "txn:38824",
+        "gnl": "Palaeoscincus",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:13604",
+        "ref": "W. P. Coombs, Jr. 1990. Teeth and taxonomy in ankylosaurs. In K. Carpenter & P. J. Currie (eds.), Dinosaur Systematics: Perspectives and Approaches. Cambridge University Press, Cambridge",
+        "dmd": "2020-08-06 16:29:03",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2005-05-25 05:53:51"
+      }
+    },
+    {
+      "id": "txn:64522",
+      "name": "Lexovisaurus phillipsi",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:64522",
+        "nam": "Lexovisaurus phillipsi",
+        "rnk": "species",
+        "att": "(Seeley 1869)",
+        "par": "txn:38812",
+        "gnl": "Lexovisaurus",
+        "fml": "Stegosauridae",
+        "rid": "ref:14179",
+        "ref": "H. G. Seeley. 1869. Index to the Fossil Remains of Aves, Ornithosauria, and Reptilia, from the Secondary System of Strata, Arranged in the Woodwardian Museum of the University of Cambridge. Deighton, Bell, and Co, Cambridge",
+        "dmd": "2018-07-31 01:04:28",
+        "vid": "var:374241",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2018-07-30 16:33:52"
+      }
+    },
+    {
+      "id": "txn:56492",
+      "name": "Miragaia longispinus",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:56492",
+        "nam": "Miragaia longispinus",
+        "rnk": "species",
+        "att": "(Gilmore 1914)",
+        "par": "txn:38808",
+        "gnl": "Dacentrurus",
+        "fml": "Stegosauridae",
+        "rid": "ref:10606",
+        "ref": "C. W. Gilmore. 1914. Osteology of the armored Dinosauria in the United States National Museum, with special reference to the genus Stegosaurus. United States National Museum Bulletin 89:1-136",
+        "dmd": "2021-08-13 01:05:37",
+        "vid": "var:440879",
+        "ext": "0",
+        "noc": 2,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2021-08-12 13:14:29"
+      }
+    },
+    {
+      "id": "txn:53200",
+      "name": "Hypsirophus discurus",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:53200",
+        "nam": "Hypsirophus discurus",
+        "rnk": "species",
+        "att": "(Cope 1878)",
+        "par": "txn:38814",
+        "gnl": "Stegosaurus",
+        "fml": "Stegosauridae",
+        "rid": "ref:14502",
+        "ref": "E. D. Cope. 1878. Descriptions of new extinct Vertebrata from the Upper Tertiary and Dakota Formations. Bulletin of the United States Geological and Geographical Survey of the Territories 4(2):379-396",
+        "dmd": "2016-04-14 01:03:05",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2003-03-01 16:54:45"
+      }
+    },
+    {
+      "id": "txn:52993",
+      "name": "Diracodon laticeps",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:52993",
+        "nam": "Diracodon laticeps",
+        "rnk": "species",
+        "att": "Marsh 1881",
+        "par": "txn:38814",
+        "gnl": "Stegosaurus",
+        "fml": "Stegosauridae",
+        "rid": "ref:7816",
+        "ref": "O. C. Marsh. 1881. Principal characters of American Jurassic dinosaurs. Part V. The American Journal of Science and Arts, series 3 21:417-423",
+        "dmd": "2021-03-31 14:31:43",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2003-02-10 22:41:12"
+      }
+    },
+    {
+      "id": "txn:57105",
+      "name": "Fulgurotherium australe",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:57105",
+        "nam": "Fulgurotherium australe",
+        "rnk": "species",
+        "att": "Huene 1932",
+        "par": "txn:38735",
+        "gnl": "Fulgurotherium",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:29483",
+        "ref": "F. v. Huene. 1932. Die fossile Reptil-Ordnung Saurischia, ihre Entwicklung und Geschichte [The fossil reptile order Saurischia, their development and history]. Monographien zur Geologie und Palaeontologie, serie 1 4(1-2):1-361",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 3,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2004-04-23 12:16:39"
+      }
+    },
+    {
+      "id": "txn:64750",
+      "name": "Rhabdodon suessi",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:64750",
+        "nam": "Rhabdodon suessi",
+        "rnk": "species",
+        "att": "(Bunzel 1871)",
+        "par": "txn:64755",
+        "gnl": "Mochlodon",
+        "fml": "NO_FAMILY_SPECIFIED",
+        "rid": "ref:12997",
+        "ref": "E. Bunzel. 1871. Die Reptilfauna der Gosauformation in der Neuen Welt bei Weiner-Neustadt. Abhandlungen der Kaiserlich-Königlichen Geologischen Reichsanstalt 5:1-18",
+        "dmd": "2013-10-27 04:21:23",
+        "vid": "var:82686",
+        "ext": "0",
+        "noc": 3,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2006-07-19 13:13:13"
+      }
+    },
+    {
+      "id": "txn:90097",
+      "name": "Jinzhousaurus yangi",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:90097",
+        "nam": "Jinzhousaurus yangi",
+        "rnk": "species",
+        "att": "Wang and Xu 2001",
+        "par": "txn:90096",
+        "gnl": "Jinzhousaurus",
+        "fml": "Iguanodontidae",
+        "rid": "ref:19265",
+        "ref": "X. Wang and X. Xu. 2001. A new iguanodontid (Jinzhousaurus yangi gen. et sp. nov.) from the Yixian Formaton of western Liaoning, China. Chinese Science Bulletin 46(19):1669-1672",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2006-11-27 11:04:44"
+      }
+    },
+    {
+      "id": "txn:246707",
+      "name": "Trachodon imperfectus",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:246707",
+        "nam": "Trachodon imperfectus",
+        "rnk": "species",
+        "att": "Kuhn 1964",
+        "par": "txn:52925",
+        "gnl": "Trachodon",
+        "fml": "Hadrosauridae",
+        "rid": "ref:17297",
+        "ref": "O. Kuhn. 1964. Fossilium Catalogus. I: Animalia. Pars 105. Ornithischia (Supplementum I)",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2012-09-07 06:12:04"
+      }
+    },
+    {
+      "id": "txn:96092",
+      "name": "Trachodon atavus",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:96092",
+        "nam": "Trachodon atavus",
+        "rnk": "species",
+        "att": "Cope 1871",
+        "par": "txn:52925",
+        "gnl": "Trachodon",
+        "fml": "Hadrosauridae",
+        "rid": "ref:17161",
+        "ref": "E. D. Cope. 1871. Supplement to the \"Synopsis of the Extinct Batrachia and Reptilia of North America\". Proceedings of the American Philosophical Society 12:41-52",
+        "dmd": "2015-08-07 01:02:22",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2007-03-12 14:32:13"
+      }
+    },
+    {
+      "id": "txn:54483",
+      "name": "Diclonius pentagonus",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:54483",
+        "nam": "Diclonius pentagonus",
+        "rnk": "species",
+        "att": "(Cope 1876)",
+        "par": "txn:53044",
+        "gnl": "Diclonius",
+        "fml": "Hadrosauridae",
+        "rid": "ref:9235",
+        "ref": "E. D. Cope. 1876. Descriptions of some vertebrate remains from the Fort Union Beds of Montana. Paleontological Bulletin 22:1-14",
+        "dmd": "2020-07-17 15:25:24",
+        "ext": "0",
+        "noc": 0,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2003-09-19 13:56:15"
+      }
+    },
+    {
+      "id": "txn:170630",
+      "name": "Ojoceratops fowleri",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:170630",
+        "nam": "Ojoceratops fowleri",
+        "rnk": "species",
+        "att": "Sullivan and Lucas 2010",
+        "par": "txn:38862",
+        "gnl": "Triceratops",
+        "fml": "Ceratopsidae",
+        "rid": "ref:33791",
+        "ref": "R. M. Sullivan and S. G. Lucas. 2010. A new chasmosaurine (Ceratopsidae, Dinosauria) from the Upper Cretaceous Ojo Alamo Formation (Naashoibito Member), San Juan Basin, New Mexico. New Perspectives on Horned Dinosaurs: The Royal Tyrrell Museum Ceratopsian Symposium. Indiana University Press, Bloomington",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 6,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2010-08-30 08:08:07"
+      }
+    },
+    {
+      "id": "txn:170638",
+      "name": "Tatankaceratops sacrisonorum",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:170638",
+        "nam": "Tatankaceratops sacrisonorum",
+        "rnk": "species",
+        "att": "Ott and Larson 2010",
+        "par": "txn:38862",
+        "gnl": "Triceratops",
+        "fml": "Ceratopsidae",
+        "rid": "ref:33794",
+        "ref": "C. J. Ott and P. L. Larson. 2010. A new, small ceratopsian dinosaur from the latest Cretaceous Hell Creek Formation, northwest South Dakota, United States: a preliminary description. New Perspectives on Horned Dinosaurs: The Royal Tyrrell Museum Ceratopsian Symposium. Indiana University Press, Bloomington",
+        "dmd": "2013-10-27 04:21:23",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2010-08-30 10:27:01"
+      }
+    },
+    {
+      "id": "txn:131333",
+      "name": "Changchunsaurus parvus",
+      "reason": "No unambiguous accepted genus/binomial in this scope.",
+      "raw": {
+        "oid": "txn:131333",
+        "nam": "Changchunsaurus parvus",
+        "rnk": "species",
+        "att": "Zan et al. 2005",
+        "par": "txn:131332",
+        "gnl": "Changchunsaurus",
+        "fml": "Thescelosauridae",
+        "rid": "ref:27973",
+        "ref": "S.-Q. Zan, J. Chen, and L.-Y. Jin, T. Li. 2005. A primitive ornithopod from the Early Cretaceous Quantou Formation of central Jilin, China. Vertebrata PalAsiatica 43(3):182-193",
+        "dmd": "2021-01-24 14:17:38",
+        "ext": "0",
+        "noc": 1,
+        "phl": "Chordata",
+        "cll": "Ornithischia",
+        "odl": "NO_ORDER_SPECIFIED",
+        "dcr": "2008-08-13 11:22:29"
+      }
+    }
+  ],
+  "unresolved_historical_names": [
+    {
+      "id": "txn:65483",
+      "name": "Euskelosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38633"
+    },
+    {
+      "id": "txn:56600",
+      "name": "Orosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38633"
+    },
+    {
+      "id": "txn:174084",
+      "name": "Pachysuchus",
+      "status": "nomen dubium",
+      "target": "txn:38633"
+    },
+    {
+      "id": "txn:133333",
+      "name": "Thotobolosaurus",
+      "status": "nomen nudum",
+      "target": "txn:38633"
+    },
+    {
+      "id": "txn:54158",
+      "name": "Dimodosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:65093",
+      "name": "Pachysauriscus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:56670",
+      "name": "Aetonyx",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:56602",
+      "name": "Orinosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:57461",
+      "name": "Leptospondylus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:57408",
+      "name": "Pachysaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:56620",
+      "name": "Gryponyx",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:56598",
+      "name": "Aristosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:57404",
+      "name": "Gresslyosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:64741",
+      "name": "Dinosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:57463",
+      "name": "Pachyspondylus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:38720",
+      "name": "Tawasaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:64395",
+      "name": "Agrosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:65094",
+      "name": "Pachysaurops",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:56616",
+      "name": "Gigantoscelus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:56672",
+      "name": "Dromicosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:37846",
+      "name": "Fulengia",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:56720",
+      "name": "Hortalotarsus",
+      "status": "nomen dubium",
+      "target": "txn:38634"
+    },
+    {
+      "id": "txn:362058",
+      "name": "Roccosaurus",
+      "status": "nomen nudum",
+      "target": "txn:38648"
+    },
+    {
+      "id": "txn:66270",
+      "name": "Clasmodosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:38700",
+      "name": "Chiayusaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:65157",
+      "name": "Neosodon",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:38682",
+      "name": "Aepisaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:52984",
+      "name": "Morinosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:77395",
+      "name": "Bruhathkayosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:38663",
+      "name": "Zizhongosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:66545",
+      "name": "Gigantosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:83101",
+      "name": "Qinlingosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:52987",
+      "name": "Chondrosteosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:65673",
+      "name": "Kunmingosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:38704",
+      "name": "Asiatosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:65650",
+      "name": "Lancanjiangosaurus",
+      "status": "nomen nudum",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:67726",
+      "name": "Nurosaurus",
+      "status": "nomen nudum",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:38676",
+      "name": "Bothriospondylus",
+      "status": "nomen dubium",
+      "target": "txn:57439"
+    },
+    {
+      "id": "txn:134959",
+      "name": "Marmarospondylus",
+      "status": "nomen dubium",
+      "target": "txn:57439"
+    },
+    {
+      "id": "txn:52799",
+      "name": "Dinodocus",
+      "status": "nomen dubium",
+      "target": "txn:57438"
+    },
+    {
+      "id": "txn:38674",
+      "name": "Astrodon",
+      "status": "nomen dubium",
+      "target": "txn:57438"
+    },
+    {
+      "id": "txn:82957",
+      "name": "Astrodontonius",
+      "status": "nomen dubium",
+      "target": "txn:57438"
+    },
+    {
+      "id": "txn:438442",
+      "name": "Australotitan",
+      "status": "nomen dubium",
+      "target": "txn:66514"
+    },
+    {
+      "id": "txn:38689",
+      "name": "Hypselosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38680"
+    },
+    {
+      "id": "txn:38694",
+      "name": "Titanosaurus",
+      "status": "nomen dubium",
+      "target": "txn:55585"
+    },
+    {
+      "id": "txn:163871",
+      "name": "Arkharavia",
+      "status": "nomen dubium",
+      "target": "txn:66514"
+    },
+    {
+      "id": "txn:133729",
+      "name": "Jiutaisaurus",
+      "status": "nomen dubium",
+      "target": "txn:57468"
+    },
+    {
+      "id": "txn:234033",
+      "name": "Rugocaudia",
+      "status": "nomen dubium",
+      "target": "txn:57468"
+    },
+    {
+      "id": "txn:54170",
+      "name": "Pleurocoelus",
+      "status": "nomen dubium",
+      "target": "txn:57468"
+    },
+    {
+      "id": "txn:119652",
+      "name": "Brohisaurus",
+      "status": "nomen dubium",
+      "target": "txn:57468"
+    },
+    {
+      "id": "txn:53018",
+      "name": "Eucamerotus",
+      "status": "nomen dubium",
+      "target": "txn:57468"
+    },
+    {
+      "id": "txn:38692",
+      "name": "Macrurosaurus",
+      "status": "nomen dubium",
+      "target": "txn:57468"
+    },
+    {
+      "id": "txn:83099",
+      "name": "Pukyongosaurus",
+      "status": "nomen dubium",
+      "target": "txn:57468"
+    },
+    {
+      "id": "txn:64328",
+      "name": "Iuticosaurus",
+      "status": "nomen dubium",
+      "target": "txn:57468"
+    },
+    {
+      "id": "txn:64408",
+      "name": "Ischyrosaurus",
+      "status": "nomen dubium",
+      "target": "txn:57439"
+    },
+    {
+      "id": "txn:38684",
+      "name": "Algoasaurus",
+      "status": "nomen dubium",
+      "target": "txn:57437"
+    },
+    {
+      "id": "txn:476541",
+      "name": "Tharosaurus",
+      "status": "nomen dubium",
+      "target": "txn:57437"
+    },
+    {
+      "id": "txn:52964",
+      "name": "Atlantosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:38687",
+      "name": "Campylodoniscus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:52841",
+      "name": "Campylodon",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:56452",
+      "name": "Ultrasaurus",
+      "status": "nomen dubium",
+      "target": "txn:38653"
+    },
+    {
+      "id": "txn:56549",
+      "name": "Thecospondylus",
+      "status": "nomen dubium",
+      "target": "txn:38505"
+    },
+    {
+      "id": "txn:57755",
+      "name": "Wakinosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:38516",
+      "name": "Halticosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:265581",
+      "name": "Ostafrikasaurus",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:38632",
+      "name": "Walgettosuchus",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:65170",
+      "name": "Ornithoides",
+      "status": "nomen nudum",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:38586",
+      "name": "Szechuanosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:66527",
+      "name": "Calamospondylus",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:66529",
+      "name": "Thecocoelurus",
+      "status": "nomen dubium",
+      "target": "txn:55491"
+    },
+    {
+      "id": "txn:38543",
+      "name": "Coelosaurus",
+      "status": "nomen dubium",
+      "target": "txn:55491"
+    },
+    {
+      "id": "txn:68141",
+      "name": "Valdoraptor",
+      "status": "nomen dubium",
+      "target": "txn:55491"
+    },
+    {
+      "id": "txn:38531",
+      "name": "Kakuru",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:56606",
+      "name": "Avalonia",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:64874",
+      "name": "Ozraptor",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:38578",
+      "name": "Embasaurus",
+      "status": "nomen dubium",
+      "target": "txn:38513"
+    },
+    {
+      "id": "txn:38533",
+      "name": "Sinocoelurus",
+      "status": "nomen dubium",
+      "target": "txn:53374"
+    },
+    {
+      "id": "txn:65226",
+      "name": "Prodeinodon",
+      "status": "nomen dubium",
+      "target": "txn:53374"
+    },
+    {
+      "id": "txn:446220",
+      "name": "Beipiaognathus",
+      "status": "nomen dubium",
+      "target": "txn:38537"
+    },
+    {
+      "id": "txn:56322",
+      "name": "Deinodon",
+      "status": "nomen dubium",
+      "target": "txn:58837"
+    },
+    {
+      "id": "txn:38614",
+      "name": "Aublysodon",
+      "status": "nomen dubium",
+      "target": "txn:38606"
+    },
+    {
+      "id": "txn:38577",
+      "name": "Chingkankousaurus",
+      "status": "nomen nudum",
+      "target": "txn:58837"
+    },
+    {
+      "id": "txn:68321",
+      "name": "Diplotomodon",
+      "status": "nomen dubium",
+      "target": "txn:58837"
+    },
+    {
+      "id": "txn:66910",
+      "name": "Tomodon",
+      "status": "nomen dubium",
+      "target": "txn:58837"
+    },
+    {
+      "id": "txn:67031",
+      "name": "Calamospondylus",
+      "status": "nomen dubium",
+      "target": "txn:53940"
+    },
+    {
+      "id": "txn:256490",
+      "name": "Ojoraptorsaurus",
+      "status": "nomen dubium",
+      "target": "txn:54544"
+    },
+    {
+      "id": "txn:38618",
+      "name": "Heptasteornis",
+      "status": "nomen dubium",
+      "target": "txn:54468"
+    },
+    {
+      "id": "txn:38617",
+      "name": "Bradycneme",
+      "status": "nomen dubium",
+      "target": "txn:54468"
+    },
+    {
+      "id": "txn:68411",
+      "name": "Koparion",
+      "status": "nomen dubium",
+      "target": "txn:54468"
+    },
+    {
+      "id": "txn:110897",
+      "name": "Palaeopteryx",
+      "status": "nomen dubium",
+      "target": "txn:55486"
+    },
+    {
+      "id": "txn:38530",
+      "name": "Inosaurus",
+      "status": "nomen dubium",
+      "target": "txn:53374"
+    },
+    {
+      "id": "txn:68143",
+      "name": "Dandakosaurus",
+      "status": "nomen dubium",
+      "target": "txn:53374"
+    },
+    {
+      "id": "txn:56418",
+      "name": "Siamosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38595"
+    },
+    {
+      "id": "txn:65149",
+      "name": "Cristatusaurus",
+      "status": "nomen dubium",
+      "target": "txn:58892"
+    },
+    {
+      "id": "txn:36610",
+      "name": "Suchosaurus",
+      "status": "nomen dubium",
+      "target": "txn:58892"
+    },
+    {
+      "id": "txn:64572",
+      "name": "Caudocoelus",
+      "status": "nomen dubium",
+      "target": "txn:53374"
+    },
+    {
+      "id": "txn:38601",
+      "name": "Chienkosaurus",
+      "status": "nomen dubium",
+      "target": "txn:53374"
+    },
+    {
+      "id": "txn:38625",
+      "name": "Iliosuchus",
+      "status": "nomen dubium",
+      "target": "txn:55483"
+    },
+    {
+      "id": "txn:38568",
+      "name": "Phaedrolosaurus",
+      "status": "nomen dubium",
+      "target": "txn:53374"
+    },
+    {
+      "id": "txn:38534",
+      "name": "Teinurosaurus",
+      "status": "nomen dubium",
+      "target": "txn:53374"
+    },
+    {
+      "id": "txn:38631",
+      "name": "Rapator",
+      "status": "nomen dubium",
+      "target": "txn:160848"
+    },
+    {
+      "id": "txn:38541",
+      "name": "Betasuchus",
+      "status": "nomen dubium",
+      "target": "txn:90100"
+    },
+    {
+      "id": "txn:38624",
+      "name": "Ornithomimoides",
+      "status": "nomen dubium",
+      "target": "txn:54528"
+    },
+    {
+      "id": "txn:57440",
+      "name": "Orthogoniosaurus",
+      "status": "nomen dubium",
+      "target": "txn:90100"
+    },
+    {
+      "id": "txn:56384",
+      "name": "Pterospondylus",
+      "status": "nomen dubium",
+      "target": "txn:90100"
+    },
+    {
+      "id": "txn:56375",
+      "name": "Dolichosuchus",
+      "status": "nomen dubium",
+      "target": "txn:90100"
+    },
+    {
+      "id": "txn:38604",
+      "name": "Dryptosauroides",
+      "status": "nomen dubium",
+      "target": "txn:53942"
+    },
+    {
+      "id": "txn:38620",
+      "name": "Coeluroides",
+      "status": "nomen dubium",
+      "target": "txn:53942"
+    },
+    {
+      "id": "txn:38621",
+      "name": "Compsosuchus",
+      "status": "nomen dubium",
+      "target": "txn:53942"
+    },
+    {
+      "id": "txn:65102",
+      "name": "Longosaurus",
+      "status": "nomen dubium",
+      "target": "txn:55476"
+    },
+    {
+      "id": "txn:38718",
+      "name": "Fabrosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38712"
+    },
+    {
+      "id": "txn:38832",
+      "name": "Amtosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38712"
+    },
+    {
+      "id": "txn:38724",
+      "name": "Geranosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38722"
+    },
+    {
+      "id": "txn:65025",
+      "name": "Taveirosaurus",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:374231",
+      "name": "Sinopeltosaurus",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:374232",
+      "name": "Sinopelta",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:56446",
+      "name": "Tatisaurus",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:38820",
+      "name": "Cryptodraco",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:64762",
+      "name": "Rhadinosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:38826",
+      "name": "Priodontognathus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:54410",
+      "name": "Hierosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:82618",
+      "name": "Maleevus",
+      "status": "nomen dubium",
+      "target": "txn:38831"
+    },
+    {
+      "id": "txn:52879",
+      "name": "Minmi",
+      "status": "nomen dubium",
+      "target": "txn:38831"
+    },
+    {
+      "id": "txn:66559",
+      "name": "Rhodanosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:38824",
+      "name": "Palaeoscincus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:52832",
+      "name": "Priconodon",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:84232",
+      "name": "Crichtonsaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:66562",
+      "name": "Polacanthoides",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:54869",
+      "name": "Tianchiasaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:38819",
+      "name": "Brachypodosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:65700",
+      "name": "Heishansaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:38818",
+      "name": "Acanthopholis",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:154024",
+      "name": "Zhejiangosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:56556",
+      "name": "Cryptosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38816"
+    },
+    {
+      "id": "txn:374239",
+      "name": "Ferganastegos",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:374237",
+      "name": "Eoplophysis",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:38804",
+      "name": "Chialingosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:374245",
+      "name": "Siamodracon",
+      "status": "nomen dubium",
+      "target": "txn:38803"
+    },
+    {
+      "id": "txn:38812",
+      "name": "Lexovisaurus",
+      "status": "nomen dubium",
+      "target": "txn:38803"
+    },
+    {
+      "id": "txn:66561",
+      "name": "Regnosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:38807",
+      "name": "Craterosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:374249",
+      "name": "Amargastegos",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:65695",
+      "name": "Monkonosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:374246",
+      "name": "Saldamosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:38809",
+      "name": "Dravidosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38798"
+    },
+    {
+      "id": "txn:66519",
+      "name": "Bienosaurus",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:38841",
+      "name": "Stegosaurides",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:65697",
+      "name": "Peishansaurus",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:374235",
+      "name": "Andhrasaurus",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:38800",
+      "name": "Lusitanosaurus",
+      "status": "nomen dubium",
+      "target": "txn:52777"
+    },
+    {
+      "id": "txn:64499",
+      "name": "Alocodon",
+      "status": "nomen dubium",
+      "target": "txn:38712"
+    },
+    {
+      "id": "txn:38716",
+      "name": "Trimucrodon",
+      "status": "nomen dubium",
+      "target": "txn:38712"
+    },
+    {
+      "id": "txn:58881",
+      "name": "Siluosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38713"
+    },
+    {
+      "id": "txn:38737",
+      "name": "Othnielia",
+      "status": "nomen dubium",
+      "target": "txn:38713"
+    },
+    {
+      "id": "txn:38735",
+      "name": "Fulgurotherium",
+      "status": "nomen dubium",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:290602",
+      "name": "Proplanicoxa",
+      "status": "nomen dubium",
+      "target": "txn:104634"
+    },
+    {
+      "id": "txn:65177",
+      "name": "Tichosteus",
+      "status": "nomen dubium",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:38754",
+      "name": "Vectisaurus",
+      "status": "nomen dubium",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:66547",
+      "name": "Sphenospondylus",
+      "status": "nomen dubium",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:56561",
+      "name": "Syngonosaurus",
+      "status": "nomen dubium",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:68173",
+      "name": "Bihariosaurus",
+      "status": "nomen nudum",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:52925",
+      "name": "Trachodon",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:38780",
+      "name": "Orthomerus",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:63936",
+      "name": "Claorhynchus",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:67794",
+      "name": "Arstanosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:193981",
+      "name": "Willinakaqe",
+      "status": "nomen vanum",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:52881",
+      "name": "Hypsibema",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:64357",
+      "name": "Pteropelyx",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:53380",
+      "name": "Thespesius",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:63260",
+      "name": "Parrosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:63258",
+      "name": "Neosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:53044",
+      "name": "Diclonius",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:53035",
+      "name": "Cionodon",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:167451",
+      "name": "Glishades",
+      "status": "nomen dubium",
+      "target": "txn:53385"
+    },
+    {
+      "id": "txn:63883",
+      "name": "Ornithotarsus",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:53000",
+      "name": "Microhadrosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38755"
+    },
+    {
+      "id": "txn:54529",
+      "name": "Loncosaurus",
+      "status": "nomen dubium",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:56559",
+      "name": "Eucercosaurus",
+      "status": "nomen dubium",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:67782",
+      "name": "Albisaurus",
+      "status": "nomen dubium",
+      "target": "txn:52805"
+    },
+    {
+      "id": "txn:38740",
+      "name": "Phyllodon",
+      "status": "nomen dubium",
+      "target": "txn:38713"
+    },
+    {
+      "id": "txn:52884",
+      "name": "Laosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38713"
+    },
+    {
+      "id": "txn:84303",
+      "name": "Kulceratops",
+      "status": "nomen dubium",
+      "target": "txn:38842"
+    },
+    {
+      "id": "txn:119495",
+      "name": "Microceratus",
+      "status": "nomen dubium",
+      "target": "txn:38842"
+    },
+    {
+      "id": "txn:38847",
+      "name": "Microceratops",
+      "status": "nomen dubium",
+      "target": "txn:38842"
+    },
+    {
+      "id": "txn:54478",
+      "name": "Dysganus",
+      "status": "nomen dubium",
+      "target": "txn:38842"
+    },
+    {
+      "id": "txn:52929",
+      "name": "Polyonax",
+      "status": "nomen dubium",
+      "target": "txn:38851"
+    },
+    {
+      "id": "txn:63894",
+      "name": "Brachyceratops",
+      "status": "nomen dubium",
+      "target": "txn:53953"
+    },
+    {
+      "id": "txn:52823",
+      "name": "Ceratops",
+      "status": "nomen dubium",
+      "target": "txn:52773"
+    },
+    {
+      "id": "txn:66564",
+      "name": "Proceratops",
+      "status": "nomen dubium",
+      "target": "txn:52773"
+    },
+    {
+      "id": "txn:53038",
+      "name": "Agathaumas",
+      "status": "nomen dubium",
+      "target": "txn:38851"
+    },
+    {
+      "id": "txn:66016",
+      "name": "Ugrosaurus",
+      "status": "nomen dubium",
+      "target": "txn:38851"
+    },
+    {
+      "id": "txn:163561",
+      "name": "Texacephale",
+      "status": "nomen dubium",
+      "target": "txn:38783"
+    },
+    {
+      "id": "txn:69162",
+      "name": "Iguanodonichnus",
+      "status": "nomen dubium",
+      "target": "txn:52775"
+    }
+  ],
+  "previous_counts": null,
+  "raw_directory": "data\\raw\\2026-11-09T23-02-26.606Z"
+}
